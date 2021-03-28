@@ -21,3 +21,17 @@ The following **bonus** features are implemented:
 - [X] User can pull to refresh. (1pt)
 - [X] User can load past posts infinitely. (2pts)
 
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+* Showcasing User Sign Up / User Staying Logged In across restarts / User can log out / User can log in
+![](demo.gif)
+
+
+* Showcasing user taking a photo, adding a caption, and posting it to the server
+![](demo.gif)
+
+
+* Showcasing user adding new comment and viewing comments on a post
+![](demo.gif)
