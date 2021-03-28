@@ -129,7 +129,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Submit"/>
                                 <connections>
-                                    <action selector="onSubmit:" destination="QWO-pY-fIo" eventType="touchUpInside" id="MyP-Yv-DgE"/>
                                     <action selector="onSubmitButton:" destination="QWO-pY-fIo" eventType="touchUpInside" id="lae-84-gL6"/>
                                 </connections>
                             </button>
