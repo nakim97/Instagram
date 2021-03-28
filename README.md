@@ -30,8 +30,8 @@ Here's a walkthrough of implemented user stories:
 
 
 * Showcasing user taking a photo, adding a caption, and posting it to the server
-![](demo.gif)
+![](demo1.gif)
 
 
 * Showcasing user adding new comment and viewing comments on a post
-![](demo.gif)
+![](demo2.gif)
