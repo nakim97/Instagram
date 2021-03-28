@@ -174,6 +174,32 @@
                                             <outlet property="nameLabel" destination="QNm-fr-aIu" id="XS3-yJ-CPc"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" id="9Rh-xb-8e5">
+                                        <rect key="frame" x="0.0" y="512" width="414" height="37"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9Rh-xb-8e5" id="Q80-xB-AOG">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="37"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a comment..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBj-MH-Hcd">
+                                                    <rect key="frame" x="16" y="8" width="390" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" systemColor="systemGray2Color"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="dBj-MH-Hcd" secondAttribute="trailing" constant="8" id="GfC-fA-b7A"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="dBj-MH-Hcd" secondAttribute="bottom" constant="8" id="XiO-th-Uyv"/>
+                                                <constraint firstItem="dBj-MH-Hcd" firstAttribute="top" secondItem="Q80-xB-AOG" secondAttribute="topMargin" constant="8" id="YZU-3S-3nl"/>
+                                                <constraint firstItem="dBj-MH-Hcd" firstAttribute="top" secondItem="Q80-xB-AOG" secondAttribute="top" constant="8" id="d1S-5Y-FQB"/>
+                                                <constraint firstAttribute="trailing" secondItem="dBj-MH-Hcd" secondAttribute="trailing" constant="8" id="dwq-ro-aMV"/>
+                                                <constraint firstItem="dBj-MH-Hcd" firstAttribute="leading" secondItem="Q80-xB-AOG" secondAttribute="leadingMargin" constant="16" id="eKc-xl-HTM"/>
+                                                <constraint firstAttribute="bottom" secondItem="dBj-MH-Hcd" secondAttribute="bottom" constant="8" id="jgF-mR-gpt"/>
+                                                <constraint firstItem="dBj-MH-Hcd" firstAttribute="leading" secondItem="Q80-xB-AOG" secondAttribute="leading" constant="16" id="qNZ-1f-8BS"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
@@ -274,6 +300,9 @@
         <image name="instagram_logo" width="255" height="108"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
